@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Realizar ciclos de prueba</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Realizar ciclos de prueba</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Realizar ciclos de prueba</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">25.988s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Realizar ciclos de pruebaexitoso"></a>
+<h3 class="failures">Realizar ciclos de pruebaexitoso</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class='text-center text-xl font-bold']&quot;}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-86529', ip: '10.201.247.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.25 (771113d280dd..., userDataDir: C:\Users\pcc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a24e50f2a476bb18db6bf39fdecab987
+*** Element info: {Using=xpath, value=//p[@class='text-center text-xl font-bold']}
+	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@11.0.18/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at app//org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at app//net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at app//net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:1118)
+	at app//com.evalartapp.tasks.tasks.EjecucionCiclos.performAs(EjecucionCiclos.java:43)
+	at app//com.evalartapp.tasks.tasks.EjecucionCiclos$$EnhancerByCGLIB$$6d786045.CGLIB$performAs$0(&lt;generated&gt;)
+	at app//com.evalartapp.tasks.tasks.EjecucionCiclos$$EnhancerByCGLIB$$6d786045$$FastClassByCGLIB$$9f8fc3cd.invoke(&lt;generated&gt;)
+	at app//net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at app//com.evalartapp.tasks.tasks.EjecucionCiclos$$EnhancerByCGLIB$$6d786045.performAs(&lt;generated&gt;)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at app//com.evalartapp.tasks.stepDefinitions.RealizarCiclosDePruebaStepDefinition.elUsuarioRealizaLasEjecucionesDeLosCiclos(RealizarCiclosDePruebaStepDefinition.java:28)
+	at ✽.el usuario realiza las ejecuciones de los ciclos(src/test/resources/features/realizarCiclosDePrueba.feature:5)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Realizar ciclos de pruebaexitoso</td>
+<td class="failures">25.988s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>feb. 24, 2023 8:21:20 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 40243
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677244883.793][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
+feb. 24, 2023 8:21:24 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 24/02/2023, 8:21:48 a. m.</p>
+</div>
+</div>
+</body>
+</html>
